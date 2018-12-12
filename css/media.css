@@ -1,0 +1,481 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .nav.navbar-nav button {
+        font-size: 13px;
+    }
+    #content .one span{
+        font-size: 14px;
+    }
+    .advertise {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .customss .nav > li > a {
+        padding: 10px 7px;
+        font-size: 12px;
+    }
+    .bg-head .first{
+        margin-top: -12%;
+        left: 43%;
+    }
+    .bg-head .second{
+        margin-top: -12%;
+        right: -3%;
+    }
+    /*header part ends*/
+    #history .graph{
+        width: 95%;
+    }
+    #history h5 {
+        padding-top: 7px;
+        line-height: 23px;
+    }
+    #history p{
+        padding-top: 14px;
+    }
+    /*--history part ends--*/
+    #market .graph{
+        width: 95%;
+    }
+    #market h5 {
+        padding-top: 7px;
+        line-height: 23px;
+    }
+    #market p{
+        padding-top: 14px;
+    }
+    #market .warning .war-text{
+        padding-top: 22px;
+    }
+    /*--market part ends--*/
+    #become .warning .war-text{
+        padding-top: 22px;
+        font-size: 15px;
+    }
+    /*--become part ends--*/
+    #bcm_last .warning .first {
+        padding: 10px 20px;
+        margin-top: 6%;
+        position: absolute;
+        left: 17%;
+        font-size: 10px;
+    }
+    #bcm_last .warning .second {
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 6%;
+        position: absolute;
+        right: 30px;
+        font-size: 10px;
+    }
+    /*--bcm_last part ends--*/
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .nav.navbar-nav button {
+        padding: 7px 3px;
+        font-size: 11px;
+    }
+    .bg-head .first {
+        padding: 8px 20px;
+        position: absolute;
+        margin-top: -12%;
+        left: 35%;
+    }
+    .bg-head .second {
+        padding: 8px 20px;
+        position: absolute;
+        margin-top: -12%;
+        right: -12%;
+    }
+    #content h2{
+        padding: 30px 0px 10px 0px;
+    }
+    #content .one i{
+        padding: 30px 10px 0px 20px;
+        font-size: 18px;
+    }
+    #content .one img{
+        width: 30px;
+        height: 30px;
+    }
+    #content .one span {
+		font-size: 10px;
+		padding-bottom: 0px;
+		position: absolute;
+		left: 29%;
+		margin-top: 5px;
+	}
+    /*--Content part ends--*/
+    #what p{
+        font-size: 14px;
+    }
+    /*--what part ends--*/
+    #history .graph{
+        width: 95%;
+    }
+    #history h5 {
+        padding-top: 7px;
+        line-height: 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    #history p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    /*--History part ends--*/
+    #market .graph{
+        width: 95%;
+    }
+    #market h5 {
+        padding-top: 7px;
+        line-height: 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    #market p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    #market .warning .war-text {
+        padding-top: 25px;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    #market .step h3{
+        font-size: 18px;
+        color: #444444;
+    }
+    #market .step .step_p{
+        font-size: 12px;
+    }
+    #market .last_text p{
+        font-size: 12px;
+        font-family: Cyr_light;
+    }
+    /*--market part ends--*/
+    #trader h2{
+        font-size: 12px;
+    }
+    #trader .person h5{
+        font-size: 18px;
+    }
+    #trader .person p{
+        font-size: 12px;
+    }
+    #trader .text p{
+        font-size: 12px;
+    }
+    /*--trader part ends--*/
+    #become .list{
+        margin-top: -20px;
+    }
+    #become .list li{
+        font-size: 12px;
+    }
+    #become .list li{
+        padding-top: 7px;
+    }
+    #become .warning{
+        background: #ededed;
+        border-radius: 5px;
+        border: 1px solid #cbbb93;
+        margin-top: 23px;
+        height: 84px;
+    }
+    #become .warning .war-text {
+        padding-top: 25px;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    /*--become part ends--*/
+    #bcm_last h2{
+        font-size: 12px;
+    }
+    #bcm_last .list{
+        margin-top: -20px;
+    }
+    #bcm_last .list li{
+        font-size: 12px;
+    }
+    #bcm_last .list li{
+        padding-top: 15px;
+    }
+    #bcm_last .warning{
+        margin-top: 23px;
+        height: 84px;
+    }
+    #bcm_last .warning img{
+        padding-top: 10px;
+    } 
+    #bcm_last .warning .war-text{
+        padding-top: 15px;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    #bcm_last .warning .first {
+        font-size: 10px;
+        padding: 8px 15px;
+        margin-top: 8%;
+        left: 0%;
+    }
+    #bcm_last .warning .second {
+        font-size: 10px;
+        padding: 8px 15px;
+        margin-top: 8%;
+        right: 5%;
+    }
+    /*--bcm_last part ends--*/
+    #review .step{
+        padding: 10px;
+        min-height: 500px;
+    }
+    #review .step h4{
+        padding: 16px 0px 20px;
+        font-size: 12px;
+    }
+    #review .step h5{
+        line-height: 22px;
+        font-size: 12px;
+    }
+    #review .step p{
+        font-size: 11px;
+        bottom: 13px;
+    }
+    /*--review part ends--*/
+    #bcm_last p {
+        font-size: 12px;
+    }
+    .customss .nav > li > a {
+        padding: 5px 5px;
+        font-size: 9px;
+    }
+}
+/*-------------Tablet part ends-----------------*/   
+
+@media(min-width:320px) and (max-width:767px){
+    .bg-head .first{
+        border: 1px solid #fff;
+        width: 96%;
+        bottom: 15px;
+        text-align: center;
+        left: 2%;
+    }
+    .bg-head .second{
+        border: 1px solid #fff;
+        width: 96%;
+        bottom: 60px;
+        right: 2%;
+    }
+    #content h2{
+        padding: 30px 0px 10px 0px;
+    }
+    #content img{
+		margin: 0 auto;
+    }
+    #content .one i{
+        padding: 30px 10px 0px 20px;
+        font-size: 18px;
+    }
+    #content .one span{
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+	.one {
+		margin-bottom: 0px;
+	}
+    /*---Content part ends--*/
+    #what  .photo h3{
+        font-size: 20px;
+    }
+    #what p{
+        font-size: 12px;
+    }
+    /*--what part ends--*/
+    #history .graph{
+        width: 95%;
+    }
+    #history  .photo h3{
+        font-size: 20px;
+    }
+    #history h4 {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    #history h5 {
+        padding-top: 7px;
+        line-height: 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    #history p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    /*--History part ends--*/
+    #market .graph{
+        width: 95%;
+    }
+    #market  .photo h3{
+        font-size: 20px;
+    }
+    #market h4 {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    #market h5 {
+        padding-top: 7px;
+        line-height: 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    #market p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    #market .warning {
+        height: 180px;
+        margin-top: 23px;
+    }
+    #market .warning img{
+        padding-top: 10px;
+    }
+    #market .warning .war-text{
+        font-size: 12px;
+        font-family: Cyr_light;
+        padding-top: 16px;
+    }
+    #market h2{
+        padding: 15px 0px;
+    }
+    #market .step img{
+        padding: 15px 0px 10px;
+    }
+    #market .step h3{
+        font-size: 18px;
+        color: #444444;
+    }
+    #market .step .step_p{
+        font-size: 12px;
+    }
+    #market .last_text p{
+        font-size: 12px;
+    }
+    #market .last_text h6{
+        margin-top: 20px;
+    }
+    /*--market part ends--*/
+    #trader h2{
+        font-size: 12px;
+    }
+    #trader .person h5{
+        font-size: 18px;
+    }
+    #trader .person p{
+        font-size: 12px;
+    }
+    #trader .text p{
+        font-size: 12px;
+    }
+    /*--trader part ends--*/
+    #become .list{
+        margin-top: -20px;
+    }
+    #become .list li{
+        font-size: 12px;
+    }
+    #become .list li{
+        padding-top: 7px;
+    }
+    #become .warning {
+        height: 180px;
+        margin-top: 23px;
+    }
+    #become .warning img{
+        padding-top: 10px;
+    }
+    #become .warning .war-text{
+        font-size: 12px;
+        padding-top: 16px;
+        text-align: justify;
+    }
+    /*--become part ends--*/
+    #bcm_last h2{
+        font-size: 12px;
+        letter-spacing: 1.3px;
+    }
+    #bcm_last .list{
+        margin-top: -20px;
+    }
+    #bcm_last .list li{
+        font-size: 12px;
+    }
+    #bcm_last .list li{
+        padding-top: 15px;
+    }
+    #bcm_last .warning{
+        margin-top: 23px;
+        height: 230px;
+    }
+	#bcm_last .follow .sprite{
+		margin-top: 170px;
+	}
+    #bcm_last .warning .war-text{
+        padding-top: 25px;
+        font-size: 12px;
+        margin-left: 12px;
+        padding-bottom: 0px;
+    }
+    #bcm_last .warning .first {
+        font-size: 10px;
+        padding: 8px 15px;
+        margin-top: 8%;
+        left: 3%;
+    }
+    #bcm_last .warning .second {
+        font-size: 10px;
+        padding: 8px 15px;
+        margin-top: 8%;
+        right: 3%;
+    }
+    /*--bcm_last part ends--*/
+    #review{
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    #review  .photo h3{
+        padding: 20px 0px 10px;
+        font-size: 25px;
+    }
+    #review  .photo img{
+        margin: 0 auto;
+    }
+    #review .step{
+        background: #ededed;
+        padding: 20px;
+        height: 100%;
+    }
+    #review .step h4{
+        padding: 16px 0px 20px;
+        font-size: 12px;
+    }
+    #review .step h5{
+        line-height: 20px;
+        font-size: 12px;
+        letter-spacing: .8px;
+        padding-bottom: 20px;
+    }
+    #review .step p{
+        font-family: Cyr_light;
+        font-size: 13px;
+        bottom: 13px;
+        padding-top: 10px;
+    }
+    #review .separate{
+        height: 15px;
+    }
+    /*--review part ends--*/
+}
